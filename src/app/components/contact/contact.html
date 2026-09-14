@@ -1,0 +1,64 @@
+<section class="contact" id="contacto">
+
+  <div class="contact-container">
+
+    <div class="contact-header">
+
+      <p class="section-subtitle">
+        ENCUÉNTRANOS
+      </p>
+
+      <h2>
+        ¿LISTO PARA<br>
+        TU PRÓXIMO CORTE?
+      </h2>
+
+      <p>
+        Reserva tu cita o escríbenos directamente por WhatsApp.
+      </p>
+
+    </div>
+
+    <div class="contact-grid">
+
+      <div class="contact-card">
+        <span>UBICACIÓN</span>
+        <h3>PRIME BARBER CLUB</h3>
+        <p>Dirección del local</p>
+      </div>
+
+      <div class="contact-card">
+        <span>HORARIO</span>
+        <h3>LUN — SÁB</h3>
+        <p>10:00 AM — 9:00 PM</p>
+      </div>
+
+      <div class="contact-card qr-card">
+          <span>ESCANEA</span>
+
+          <h3>CONECTA CON PRIME</h3>
+
+        <div class="qr-container">
+          <qrcode
+            [qrdata]="'http://localhost:4200/links'"
+            [width]="120"
+            [errorCorrectionLevel]="'M'"
+          ></qrcode>
+        </div>
+
+        <p>Escanea el código para encontrar todas nuestras redes y contactos.</p>
+      </div>
+
+    </div>
+
+    <a
+      href="https://wa.me/51999999999"
+      target="_blank"
+      class="whatsapp-button"
+    >
+      RESERVAR POR WHATSAPP
+    </a>
+
+  </div>
+
+</section>

@@ -1,0 +1,52 @@
+<section class="services" id="servicios">
+
+  <div class="services-container">
+
+    <div class="section-header">
+
+      <p class="section-subtitle">
+        LO QUE HACEMOS
+      </p>
+
+      <h2>
+        NUESTROS SERVICIOS
+      </h2>
+
+      <p class="section-description">
+        Detalle, precisión y estilo en cada servicio.
+      </p>
+
+    </div>
+
+
+    <div class="services-grid">
+
+      @for (service of services; track service.name) {
+
+        <article class="service-card">
+
+          <div class="service-number">
+            0{{ $index + 1 }}
+          </div>
+
+          <h3>
+            {{ service.name }}
+          </h3>
+
+          <p>
+            {{ service.description }}
+          </p>
+
+          <span class="service-price">
+            {{ service.price }}
+          </span>
+
+        </article>
+
+      }
+
+    </div>
+
+  </div>
+
+</section>

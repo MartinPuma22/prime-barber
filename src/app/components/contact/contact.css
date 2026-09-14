@@ -1,0 +1,124 @@
+.contact {
+  padding: 110px 30px;
+  background-color: #050505;
+  color: #ffffff;
+  text-align: center;
+}
+
+.contact-container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.section-subtitle {
+  color: #c9a227;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 4px;
+}
+
+.contact h2 {
+  margin: 20px 0;
+
+  font-size: clamp(40px, 6vw, 70px);
+  line-height: 1.05;
+}
+
+.contact-header > p:last-child {
+  color: #888;
+  font-size: 17px;
+}
+
+.contact-grid {
+  margin: 70px 0 50px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  align-items: start;
+}
+
+.contact-card {
+  height: 260px;
+  padding: 25px 20px;
+  border: 1px solid #222;
+  background: #0d0d0d;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.contact-card span {
+  color: #c9a227;
+  font-size: 11px;
+  letter-spacing: 3px;
+}
+
+.contact-card h3 {
+  margin: 18px 0 10px;
+  font-size: 17px;
+}
+
+.contact-card p {
+  margin: 0;
+  color: #777;
+}
+
+.whatsapp-button {
+  display: inline-block;
+
+  padding: 16px 30px;
+
+  background-color: #c9a227;
+  color: #000;
+
+  text-decoration: none;
+
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 1px;
+
+  transition: 0.3s;
+}
+
+.whatsapp-button:hover {
+  background-color: #fff;
+}
+
+@media (max-width: 700px) {
+
+  .contact {
+    padding: 80px 20px;
+  }
+
+  .contact-grid {
+    grid-template-columns: 1fr;
+  }
+
+}
+
+.qr-card {
+  height: 260px;
+  padding: 15px 20px;
+}
+
+.qr-container {
+  margin: 10px 0;
+  padding: 5px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.qr-card h3 {
+  margin: 10px 0 0;
+}
+
+.qr-card p {
+  max-width: 220px;
+  margin: 0;
+  font-size: 13px;
+}
